@@ -1,4 +1,4 @@
- class Lesson2 {
+class Lesson2 {
     public static void main(String[] args) {
             System.out.println(numComp(10,2));
             isPositive(-2);
