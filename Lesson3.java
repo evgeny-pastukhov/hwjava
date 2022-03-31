@@ -65,7 +65,6 @@ class Lesson3 {
         int[] e = new int[len];
         for (int i = 0;i < len; i++) {
             e[i] = initialValue;
-            System.out.println(i + ":" + e[i]);
         }
         return e;
     }
