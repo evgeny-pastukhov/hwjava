@@ -63,12 +63,10 @@ class Lesson3 {
     
     static int[] createArr(int initialValue, int len) {
         int[] e = new int[len];
-        //System.out.println(e[len-2]);
         for (int i = 0;i < len; i++) {
             e[i] = initialValue;
             System.out.println(i + ":" + e[i]);
         }
-        //System.out.println(e[len-1]);
         return e;
     }
 }
